@@ -1,0 +1,40 @@
+/* Add this to your styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: #ddd;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+}
+
+.tab button:hover {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+}
+
+/* Style the download button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
